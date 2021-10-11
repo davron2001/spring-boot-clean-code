@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 public class StudentResource {
-    @GetMapping("/studentsAll   ")
+    @GetMapping("/students/all")
     public ResponseEntity getAll() {
         Student student = new Student(1L, "Davron", "Sulaymonov", "3-kurs");
         Student student1 = new Student(2L, "Asilbek", "Bilmayman", "32-kurs");
